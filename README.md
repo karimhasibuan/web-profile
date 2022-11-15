@@ -1,4 +1,4 @@
-# KARIM HASIBUAN WEB PROFILE
+# Karim Hasibuan's web profile
 This my web profile repository.
 
 On this website, you can find something like:
@@ -8,7 +8,7 @@ On this website, you can find something like:
 - My Project
 - My Blog
 
-Visit my website: [Karim Hasibuan Web Profile](https://karimhasibuan.com)
+Visit my website: [Karim Hasibuan's web profile](https://karimhasibuan.com)
 
 NB:
 This website is still development for now and will be update soon.
