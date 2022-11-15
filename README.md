@@ -1,4 +1,5 @@
 # Karim Hasibuan's web profile
+
 This my web profile repository.
 
 On this website, you can find something like:
@@ -10,10 +11,8 @@ On this website, you can find something like:
 
 Visit my website: [Karim Hasibuan's web profile](https://karimhasibuan.com)
 
-NB:
-This website is still development for now and will be update soon.
-
-
+NB: This website is still development for now and will be update soon.
 
 ## STAY TUNED!!!
+
 ![Logo](https://user-images.githubusercontent.com/87934875/201892379-b1332a00-0839-4c59-bda1-775b6c9378ac.png)
