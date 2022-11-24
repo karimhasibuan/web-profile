@@ -9,8 +9,6 @@ On this website, you can find something like:
 - My Project
 - My Blog
 
-Visit my website: [Karim Hasibuan's web profile](https://karimhasibuan.com)
-
 NB: This website is still development for now and will be update soon.
 
 ## STAY TUNED!!!
