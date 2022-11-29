@@ -42,7 +42,7 @@ body {
   font-size: 2rem;
 }
 .nav-icon:hover,
-.nav-btn .home:hover {
+.nav-btn .home-icon:hover {
   border-radius: 10rem;
   transition: 0.5s;
   background-color: rgb(183, 183, 183);
@@ -68,6 +68,7 @@ body {
   text-align: center;
   justify-content: center;
   color: white;
+  animation: fadeIn 1s;
 }
 .main-logo img {
   width: 200px;
@@ -87,4 +88,14 @@ body {
   margin-top: 10px;
   font-size: 36px;
   font-weight: lighter;
+}
+
+/* Keyframes animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
