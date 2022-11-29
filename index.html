@@ -19,21 +19,100 @@
   <body>
     <div class="nav-btn-box">
       <div class="nav-btn">
-        <div class="nav-icon">
+        <div class="nav-icon" data-tab-target="#tab2">
           <i class="fas fa-info-circle"></i>
         </div>
-        <div class="nav-icon">
+        <div class="nav-icon" data-tab-target="#tab3">
           <i class="fab fa-react"></i>
         </div>
-        <div class="nav-icon home">
+        <div class="nav-icon home" data-tab-target="#tab1">
           <i class="fas fa-home"></i>
         </div>
-        <div class="nav-icon">
+        <div class="nav-icon" data-tab-target="#tab4">
           <i class="fas fa-project-diagram"></i>
         </div>
-        <div class="nav-icon">
+        <div class="nav-icon" data-tab-target="#tab5">
           <i class="fas fa-blog"></i>
         </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div id="tab1" data-tab-content class="items active">
+        <div class="main-logo">
+          <img src="./assets/img/kh-logo.png" alt="Karim Hasibuan Logo" />
+        </div>
+        <h2>KARIM HASIBUAN</h2>
+        <p>I really like the field of Machine Learning and Web Development.</p>
+      </div>
+
+      <div id="tab2" data-tab-content class="items">
+        <h2>KARIM HASIBUAN</h2>
+        <p>You can see more about me from this below</p>
+        <div class="tab-about-icon-box">
+          <div class="tab-about-icon">
+            <i class="fas fa-globe"></i>
+          </div>
+
+          <div class="tab-about-icon">
+            <i class="fab fa-medium"></i>
+          </div>
+
+          <div class="tab-about-icon">
+            <i class="fab fa-instagram"></i>
+          </div>
+
+          <div class="tab-about-icon">
+            <i class="fab fa-linkedin"></i>
+          </div>
+
+          <div class="tab-about-icon">
+            <i class="fab fa-github"></i>
+          </div>
+
+          <div class="tab-about-icon">
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div id="tab3" data-tab-content class="items">
+        <p>Here is My Favorite Tech Stack</p>
+        <div class="tab-about-icon-box">
+          <div class="tab-about-icon">
+            <i class="fab fa-react"></i>
+          </div>
+
+          <div class="tab-about-icon">
+            <i class="fab fa-js-square"></i>
+          </div>
+
+          <div class="tab-about-icon">
+            <i class="fab fa-python"></i>
+          </div>
+
+          <div class="tab-about-icon">
+            <i class="fab fa-vuejs"></i>
+          </div>
+
+          <div class="tab-about-icon">
+            <i class="fab fa-bootstrap"></i>
+          </div>
+
+          <div class="tab-about-icon">
+            <i class="fab fa-laravel"></i>
+          </div>
+        </div>
+      </div>
+
+      <div id="tab4" data-tab-content class="items">
+        <h2>MY PROJECT</h2>
+        <p>Here is My Project</p>
+      </div>
+
+      <div id="tab5" data-tab-content class="items">
+        <h2>MY BLOG</h2>
+        <p>Let See My Blog</p>
       </div>
     </div>
   </body>
