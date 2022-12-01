@@ -134,6 +134,50 @@ body {
 }
 /* End About Section */
 
+/* Tech Section */
+.tech {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  color: white;
+  animation: fadeIn 1s;
+}
+.tech-logo img {
+  width: 100px;
+  border-radius: 100%;
+  padding: 2px;
+  background-color: beige;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.header-tech {
+  width: 100%;
+}
+.header-tech h2 {
+  font-size: 45px;
+  font-weight: 900;
+  text-shadow: -1px -1px 5px #000, 1px -1px 5px #000, -1px 1px 5px #000, 1px 1px 5px #000;
+}
+.header-tech p {
+  font-size: 30px;
+  font-weight: lighter;
+}
+.tech-icon-box {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  width: 50%;
+  align-items: center;
+}
+.tech-icon i {
+  font-size: 5rem;
+  color: white;
+}
+/* End Tech Section */
+
 /* Keyframes animation */
 @keyframes fadeIn {
   0% {
