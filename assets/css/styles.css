@@ -179,6 +179,31 @@ body {
 }
 /* End Tech Section */
 
+/* Project Section */
+.project {
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  animation: fadeIn 1s;
+}
+.header-project {
+  width: 100%;
+}
+.header-project h2 {
+  font-size: 45px;
+  font-weight: 900;
+  text-shadow: -1px -1px 5px #000, 1px -1px 5px #000, -1px 1px 5px #000, 1px 1px 5px #000;
+}
+.header-project p {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+/* End Project Section */
+
 /* Keyframes animation */
 @keyframes fadeIn {
   0% {
