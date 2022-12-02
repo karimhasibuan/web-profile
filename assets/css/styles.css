@@ -12,7 +12,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  background-size: cover;
   height: 100%;
+  width: 100%;
 }
 .nav-btn-box {
   position: fixed;
@@ -260,6 +262,48 @@ body {
   transform: scale(1.1);
 }
 /* End Project Section */
+
+/* Responsive Section */
+@media (min-width: 320px) {
+  .about-icon-box {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    gap: 1rem;
+    width: 50%;
+    align-items: center;
+  }
+  .tech-icon-box {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    gap: 1rem;
+    width: 50%;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .about {
+    margin-top: 3rem;
+  }
+  .about-icon-box {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+    width: 50%;
+    align-items: center;
+  }
+  .tech-icon-box {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    gap: 1rem;
+    width: 50%;
+    align-items: center;
+  }
+}
+/* End Responsive Section */
 
 /* Keyframes animation */
 @keyframes fadeIn {
